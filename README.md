@@ -20,7 +20,7 @@ Node.js (version 14 or later)
 npm (Node Package Manager, comes with Node.js)
 If you have Git installed, run the following command to clone the repository:
 
-(bash) git clone https://github.com/Kanjouu/vue-portfolio.git
+(bash) git clone git@github.com:Kanjouu/Bonifacio_Portfolio.git
 
 cd vue-portfolio
 
