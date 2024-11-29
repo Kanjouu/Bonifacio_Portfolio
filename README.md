@@ -22,7 +22,7 @@ If you have Git installed, run the following command to clone the repository:
 
 (bash) git clone git@github.com:Kanjouu/Bonifacio_Portfolio.git
 
-cd vue-portfolio
+change directory (cd)
 
 npm install
 
