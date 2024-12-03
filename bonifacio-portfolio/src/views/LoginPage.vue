@@ -68,6 +68,8 @@
 </template>
 
 <script>
+import { useRouter } from 'vue-router';
+const router = useRouter()
 export default {
   data() {
     return {
@@ -88,7 +90,7 @@ export default {
       const validPassword = 'admin';
       if (this.email === validEmail && this.password === validPassword) {
         alert('Login successful!');
-        window.location.href = 'http://localhost:8080/portfolio/profile';
+      router.push('/portfolio/profile')
       } else {
         this.errorMessage = 'Invalid email or password. Please try again.';
       }
