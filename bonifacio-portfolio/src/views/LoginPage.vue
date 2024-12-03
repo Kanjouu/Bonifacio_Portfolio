@@ -68,8 +68,6 @@
 </template>
 
 <script>
-import { useRouter } from 'vue-router';
-const router = useRouter()
 export default {
   data() {
     return {
@@ -90,7 +88,7 @@ export default {
       const validPassword = 'admin';
       if (this.email === validEmail && this.password === validPassword) {
         alert('Login successful!');
-      router.push('/portfolio/profile')
+        this.$router.push('/portfolio/profile'); // Correctly use this.$router
       } else {
         this.errorMessage = 'Invalid email or password. Please try again.';
       }
